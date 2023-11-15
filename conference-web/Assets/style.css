@@ -31,6 +31,7 @@ a{
 li{
     background-color: #354BF7;
     list-style-type: none;
+    margin-right: 45px;
 }
 span{
     background-color: white;
@@ -47,10 +48,27 @@ section{
 article:first-of-type{
     background-color: #354BF7;
     line-height: 30px;
+    border-radius: 25px 25px 0px 0px;
+    padding: 25px;
 }
 a:hover{
     background-color: white;
     color: #C70039;
     border-radius: 5px;
     border: 2px #C70039 solid;
+}
+main>div:first-of-type{
+    margin: 35px;
+    background: #C70039; 
+    width: 150px;
+    height: 120px;
+    position: relative;
+}
+div>div:nth-child(1){
+    background: #354BF7;
+    height: 90px;
+    width: 100px;
+    position: absolute;
+    top: -15px;
+    left: -7px;
 }
